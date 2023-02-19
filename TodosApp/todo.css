@@ -1,0 +1,155 @@
+.todos-bg-container {
+    background-image: radial-gradient(#e307eb,#eb076d,#eb7907,#ebc507);
+    height: 100vh;
+    text-align: center;
+}
+
+.todos-heading {
+    text-align: center;
+    font-family: "Bree Serif";
+    font-size: 46px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #e307eb;
+}
+
+.create-task-heading {
+    font-family: "Bree Serif";
+    font-size: 32px;
+    font-weight: 700;
+    color: #1eeb07;
+}
+
+.create-task-heading-subpart {
+    font-family: "Bree Serif";
+    font-size: 32px;
+    font-weight: 500;
+    color: #07eb97;
+}
+
+.todo-items-heading {
+    font-family: "Roboto";
+    font-size: 32px;
+    font-weight: 700;
+    text-align: left;
+    padding: 10px;
+    color: #0bde16;
+}
+
+.todo-items-heading-subpart {
+    font-family: "Roboto";
+    font-size: 32px;
+    font-weight: 500;
+    text-align: left;
+    color: #07eb97;
+}
+.save-button{
+    color: white;
+    background-color: #4c63b6;
+    font-family: "Roboto";
+    font-size: 18px;
+    border-width: 0;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+}   
+
+.todo-items-container {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.todo-item-container {
+    margin-top: 15px;
+}
+
+.todo-user-input {
+    background-color: white;
+    width: 40%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e4e7eb;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 15px;
+    color: #c7c10a;
+}
+.button-container{
+    text-align: left;
+}
+
+.button {
+    color: white;
+    background-color: #4c63b6;
+    font-family: "Roboto";
+    font-size: 18px;
+    border-width: 0;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.label-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #b5c9a1;
+    width: 40vw;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #c7b70a;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.checkbox-input {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    margin-top: 12px;
+    margin-right: 12px;
+}
+
+.checkbox-label {
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 400;
+    width: 82%;
+    margin: 10px;
+    color: #0bde16;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    text-align: right;
+}
+
+.delete-icon-container {
+    width: 18%;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+
+
+.checked {
+    text-decoration: line-through;
+    background-color: aqua;
+    color: #eb071e;
+    font-style: oblique;
+    font-weight: bold;
+}
+
